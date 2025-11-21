@@ -1,4 +1,10 @@
-// square pattern
+//  *  *  *  *  * 
+//  *  *  *  *  *
+//  *  *  *  *  *
+//  *  *  *  *  *
+//  *  *  *  *  *
+
+
 
 #include<iostream>
 using namespace std;
