@@ -7,8 +7,8 @@ int main(){
     cin>>n;
 
     for(i=1; i<=n; i++){
+        char name = 'a' + (i-1);
         for(j=1; j<=n; j++){
-            char name = 'a' + (i-1);
             cout<<" "<<name;
         }
         cout<<endl;
