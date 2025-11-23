@@ -1,8 +1,9 @@
-//         5 
-//       4 5 
-//     3 4 5 
-//   2 3 4 5 
-// 1 2 3 4 5 
+//         1 
+//       1 2
+//     1 2 3
+//   1 2 3 4
+// 1 2 3 4 5
+
 
 
 
@@ -14,14 +15,18 @@ int main(){
     cin>>n;
 
     for(i=1; i<= n; i++){
-        for(j=1; j<=n; j++){
-            if(j <= n-i){
+
+        for(j=1; j<=n-i; j++){
+            
                 cout<<"  ";
-            }else{
+            }
+            for(j=1; j<=i; j++){
+              
                 cout<<j<<" ";
             }
+            cout<<endl;
+            
         }
         cout<<endl;
+        return 0;
     }
-    return 0;
-}
